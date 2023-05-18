@@ -50,4 +50,11 @@ SELECT Nombre,Correo,idUsuarios FROM usuarios WHERE idUsuarios >=5; -- Muestra l
 
 SELECT Nombre FROM usuarios ORDER BY Nombre ASC; -- Ordena alfabeticamente los nombres en este caso.
 
+-- practicando update -actualizar
+
+UPDATE usuarios SET Apellido = 'Alvarez' WHERE idUsuarios =12;
+UPDATE usuarios SET Celular = '1500112233' WHERE idUsuarios =11;
+UPDATE usuarios SET Correo='lucascorr@seleccion' WHERE clave ='lucac123#';
+
+
 
