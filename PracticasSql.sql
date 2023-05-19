@@ -55,6 +55,10 @@ SELECT Nombre FROM usuarios ORDER BY Nombre ASC; -- Ordena alfabeticamente los n
 UPDATE usuarios SET Apellido = 'Alvarez' WHERE idUsuarios =12;
 UPDATE usuarios SET Celular = '1500112233' WHERE idUsuarios =11;
 UPDATE usuarios SET Correo='lucascorr@seleccion' WHERE clave ='lucac123#';
+SELECT *FROM usuarios;
 
+-- delete -borrar (siempre se debe especificar tmb)
 
-
+DELETE FROM usuarios WHERE Celular = '1500112233';
+DELETE FROM usuarios WHERE idUsuarios = 3;
+SELECT *FROM usuarios;
